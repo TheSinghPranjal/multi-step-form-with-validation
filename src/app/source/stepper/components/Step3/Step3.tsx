@@ -4,7 +4,7 @@ import Box from '@mui/material/Box';
 import Checkbox from '@mui/material/Checkbox';
 import Button from '@mui/material/Button';
 import { FaCcVisa, FaCcMastercard, FaStripe } from 'react-icons/fa';
-import useLocalStorageForStep3 from '../../services/localStorageForStep3';
+import useLocalStorageForStep3 from '../../../services/localStorageForStep3';
 
 
 interface BillingData {

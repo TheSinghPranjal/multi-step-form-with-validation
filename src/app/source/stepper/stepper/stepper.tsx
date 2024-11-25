@@ -9,6 +9,7 @@ import Step1 from '../components/Step1/Step1';
 import Step2 from '../components/Step2/Step2';
 import Step3 from '../components/Step3/Step3';
 import Step4 from '../components/Step4/Step4';
+import useLocalStorage from '../../services/localStorage';
 
 
 

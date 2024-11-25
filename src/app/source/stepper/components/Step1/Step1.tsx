@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import TextField from '@mui/material/TextField';
 import '../stepper/Step.css';
-import useLocalStorageForStep1 from '../../services/localStorageStep1';
+import useLocalStorageForStep1 from '../../../services/localStorageStep1';
 
 
 interface Step1Props {

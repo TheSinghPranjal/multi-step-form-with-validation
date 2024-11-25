@@ -1,8 +1,9 @@
 'use client'
 import React, { useState, useEffect } from 'react';
-import { FormControl, FormHelperText, InputLabel, MenuItem, Select } from '../../../../../node_modules/@mui/material/index';
 
-import { SelectChangeEvent } from '@mui/material/Select';
+
+import Select, { SelectChangeEvent } from '@mui/material/Select';
+import { FormControl, FormHelperText, InputLabel, MenuItem } from '@mui/material';
 
 
 const Step2 = () => {
