@@ -11,9 +11,6 @@ import Step3 from '../components/Step3/Step3';
 import Step4 from '../components/Step4/Step4';
 import useLocalStorage from '../../services/localStorage';
 
-
-
-
 const steps = ['Personal Information', 'Country and City', 'Payment', 'Summary'];
 
 function Step1Page({ setIsStepValid }: { setIsStepValid: (isValid: boolean) => void }) {

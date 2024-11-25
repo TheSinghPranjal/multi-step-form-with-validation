@@ -1,8 +1,9 @@
 'use client';
 import React, { useState } from 'react';
-import TextField from '@mui/material/TextField';
+
 import '../stepper/Step.css';
 import useLocalStorageForStep1 from '../../../services/localStorageStep1';
+import { TextField } from '@mui/material';
 
 
 interface Step1Props {
