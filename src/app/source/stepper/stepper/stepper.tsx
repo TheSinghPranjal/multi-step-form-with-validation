@@ -1,11 +1,17 @@
 'use client'
 import * as React from 'react';
-import Step1 from '../Step1/Step1';
-import Step2 from '../Step2/Step2';
-import Step3 from '../Step3/Step3';
-import useLocalStorage from '../../services/localStorage';
-import Step4 from '../Step4/Step4';
-import { Button, Step, StepLabel, Stepper, Typography } from '../../../../../node_modules/@mui/material/index';
+import Stepper from '@mui/material/Stepper';
+import Step from '@mui/material/Step';
+import StepLabel from '@mui/material/StepLabel';
+import Button from '@mui/material/Button';
+import Typography from '@mui/material/Typography';
+import Step1 from '../components/Step1/Step1';
+import Step2 from '../components/Step2/Step2';
+import Step3 from '../components/Step3/Step3';
+import Step4 from '../components/Step4/Step4';
+
+
+
 
 const steps = ['Personal Information', 'Country and City', 'Payment', 'Summary'];
 
@@ -59,7 +65,6 @@ export default function HorizontalLinearStepper() {
 
     return (
         <div style={{ width: '100%' }}>
-
             <Stepper activeStep={activeStep}>
                 {steps.map((label, index) => (
                     <Step key={label}>
@@ -97,8 +102,6 @@ export default function HorizontalLinearStepper() {
                             {activeStep === steps.length - 1 ? 'Finish' : 'Next'}
                         </Button>
                     </div>
-
-
                 </React.Fragment>
             )}
         </div>
